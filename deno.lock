@@ -1,0 +1,53 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@easykv/easykv@1": "1.0.0",
+    "jsr:@hono/hono@^4.7.8": "4.7.8",
+    "jsr:@std/assert@1": "1.0.13",
+    "jsr:@std/internal@^1.0.6": "1.0.6",
+    "npm:@types/node@*": "22.12.0"
+  },
+  "jsr": {
+    "@easykv/easykv@1.0.0": {
+      "integrity": "892f0d94c8caf7d4b6f569b29d48d16bfaf0c79d2ab79a3b7b27cdbb86b8fbeb"
+    },
+    "@hono/hono@4.7.8": {
+      "integrity": "620b1eaab065196d4ebe02cff31f8d3a78c94f736ce2ca86ee14f5f26fe48ecd"
+    },
+    "@std/assert@1.0.13": {
+      "integrity": "ae0d31e41919b12c656c742b22522c32fb26ed0cba32975cb0de2a273cb68b29",
+      "dependencies": [
+        "jsr:@std/internal"
+      ]
+    },
+    "@std/internal@1.0.6": {
+      "integrity": "9533b128f230f73bd209408bb07a4b12f8d4255ab2a4d22a1fd6d87304aca9a4"
+    }
+  },
+  "npm": {
+    "@types/node@22.12.0": {
+      "integrity": "sha512-Fll2FZ1riMjNmlmJOdAyY5pUbkftXslB5DgEzlIuNaiWhXd00FhWxVC/r4yV/4wBb9JfImTu+jiSvXTkJ7F/gA==",
+      "dependencies": [
+        "undici-types"
+      ]
+    },
+    "undici-types@6.20.0": {
+      "integrity": "sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg=="
+    }
+  },
+  "redirects": {
+    "https://esm.sh/@types/react@~19.0.12/index.d.ts": "https://esm.sh/@types/react@19.0.14/index.d.ts",
+    "https://esm.sh/react": "https://esm.sh/react@19.1.0"
+  },
+  "remote": {
+    "https://esm.sh/react@19.1.0": "8cb1e2ba1aeb012dc6807c8b3cf6ae90579b448317c9debc9d888dcabc246e66",
+    "https://esm.sh/react@19.1.0/denonext/react.mjs": "b43f435068776ab7a40daea8854ab1f8eca6252e86a9ac8b716bb9110ffeb76e"
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@easykv/easykv@1",
+      "jsr:@hono/hono@^4.7.8",
+      "jsr:@std/assert@1"
+    ]
+  }
+}
